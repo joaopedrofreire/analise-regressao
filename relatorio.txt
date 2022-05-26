@@ -1,0 +1,50 @@
+[1] "Resultados do ajuste de minimos quadrados:"
+
+Call:
+lm(formula = ps_sistolica ~ peso, data = dados)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-17.182  -6.485  -2.519   8.926  12.143 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 69.10437   12.91013   5.353 1.71e-05 ***
+peso         0.41942    0.07015   5.979 3.59e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 8.681 on 24 degrees of freedom
+Multiple R-squared:  0.5983,	Adjusted R-squared:  0.5815 
+F-statistic: 35.74 on 1 and 24 DF,  p-value: 3.591e-06
+
+[1] "Tabela ANOVA do modelo ajustado:"
+            Df Sum Sq Mean Sq F value   Pr(>F)    
+peso         1   2694  2693.6   35.74 3.59e-06 ***
+Residuals   24   1809    75.4                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Call:
+lm(formula = ps_sistolica ~ peso, data = dados)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-17.182  -6.485  -2.519   8.926  12.143 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 69.10437   12.91013   5.353 1.71e-05 ***
+peso         0.41942    0.07015   5.979 3.59e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 8.681 on 24 degrees of freedom
+Multiple R-squared:  0.5983,	Adjusted R-squared:  0.5815 
+F-statistic: 35.74 on 1 and 24 DF,  p-value: 3.591e-06
+
+     peso      peso 
+0.2746281 0.5642023 
+(Intercept) (Intercept) 
+   42.45918    95.74957 
+[1]  45.94475 145.83910
